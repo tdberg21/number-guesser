@@ -1,0 +1,128 @@
+* {
+  font-family: Open Sans;
+}
+
+header {
+  background-color: #404041;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-weight: lighter;
+  margin: 0px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.pinkHeader {
+  color: #ED458B;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 40%;
+}
+
+#whiteHeader {
+  color: #E6E7E8;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.changeRangeDiv {
+  color: #404041;
+  margin-bottom: 25px;
+}
+
+main {
+  margin: auto;
+  width: 50%;
+}
+
+input {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+button {
+  background-color: #929497;
+  border-radius: 50px / 50px;
+  border: 0;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 16px;
+  height: 30px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #EB008B;
+  color: #FFFFFF;
+}
+
+button:disabled {
+  background-color: #D0D2D3;
+  color: #FFFFFF;
+}
+
+.newRange {
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-left: 33%;
+  margin-top: 10px;
+}
+
+.rangeSet {
+  margin-left: 35%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.topButtons {
+  border: none;
+  margin-top: 30px;
+  width:48%;
+}
+
+.bottomButton {
+  border: none;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  width: 96%;
+}
+
+.bottomSection {
+  margin: auto;
+  width: 50%;
+}
+
+h5 {
+  color: #404041;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 20px;
+  text-align: center;
+}
+
+p {
+  color: #EB008B;
+  font-size: 4.0em;
+  margin: 0;
+  text-align: center;
+}
+
+.guessedNumber {
+  color: #EB008B;
+  font-size: 4.0em;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.changeRangeDiv {
+  border-color: #929497;
+  border-width: thin;
+  border: solid;
+}
